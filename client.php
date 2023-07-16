@@ -50,14 +50,6 @@
                 success: function(data) {
                     // Update the content of the "state" select element with the received data
                     $("#state").append(data);
-
-                    // *** MODIFICATION STARTS HERE ***
-                    // Load initial districts based on the first state
-                    var initialState = $("#state").val();
-                    if (initialState != "") {
-                        loadDistrictsByState(initialState);
-                    }
-                    // *** MODIFICATION ENDS HERE ***
                 },
                 error: function() {
                     alert("Failed to load states.");
