@@ -2,8 +2,6 @@
 
 $con = mysqli_connect("localhost", "root", "", "india") or die("Connection Failed");
 
-// echo $_POST['num'] + 20;
-
 if ($_POST['type'] == "") {
 
     $sql = "SELECT * FROM misc_state_table";

@@ -10,22 +10,6 @@
 
 <body>
 
-    <!-- <input type="textbox" id="num1">
-    <a href="javascript:void(0)" onclick="click_here()">Click Here</a>
-
-    <script>
-        function click_here() {
-            var num1 = jQuery('#num1').val();
-            jQuery.ajax({
-                url: 'code.php',
-                type: 'post',
-                data: 'num=' + num1,
-                success: function(result) {
-                    alert(result);
-                }
-            })
-        }
-    </script> -->
 
     <form action="code.php" method="post">
 
